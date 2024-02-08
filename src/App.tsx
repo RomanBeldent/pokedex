@@ -9,18 +9,6 @@ const App: FunctionComponent = () => {
         setPokemons(POKEMONS)
     }, [])
 
-    /*
-    const pokemonList = pokemons.map(({id, name, hp, cp, picture, types, created}) =>
-        <li key={id}> <img src={picture} alt={picture}/>
-            {name}
-            {hp}
-            {cp}
-            {types}
-            {created.toString()}
-        </li>
-    );
-*/
-
     return (
         <div>
             <h1 className="center">Pokédex</h1>
