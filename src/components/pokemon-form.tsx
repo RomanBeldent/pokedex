@@ -122,7 +122,6 @@ const PokemonForm: FunctionComponent<Props> = ({ pokemon }) => {
     return true;
   }
 
-
   return (
     <form onSubmit={e => handleSubmit(e)}>
       <div className="row">
