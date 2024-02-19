@@ -113,6 +113,18 @@
       "types": [
         "Feu"
       ]
+    },
+    {
+      "id": "1708356856490",
+      "hp": 100,
+      "cp": 10,
+      "name": "New Pokémon",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/100.png",
+      "types": [
+        "Normal",
+        "Electrik",
+        "Eau"
+      ]
     }
   ]
 }
