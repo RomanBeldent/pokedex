@@ -23,7 +23,7 @@ const PokemonCard: FunctionComponent<Props> = ({ pokemon, borderColor = '#009688
         setColor('#f5f5f5'); // On remet la bordure en gris
     }
 
-    const goToPokemon = (id: string) => {
+    const goToPokemon = (id: number) => {
         history.push(`/pokemons/${id}`)
     }
 

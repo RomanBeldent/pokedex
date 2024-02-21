@@ -1,6 +1,6 @@
 export default class Pokemon {
     // 1. Typage des propriétés d'un pokémon.
-    id: string;
+    id: number;
     hp: number;
     cp: number;
     name: string;
@@ -10,7 +10,7 @@ export default class Pokemon {
      
     // 2. Définition des valeurs par défaut des propriétés d'un pokémon.
     constructor(
-     id: string,
+     id: number,
      hp: number = 100,
      cp: number = 10,
      name: string = '...',
