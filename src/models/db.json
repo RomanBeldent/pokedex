@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Bulbizarre",
-      "hp": "250",
+      "hp": 250,
       "cp": 5,
       "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
       "types": [
